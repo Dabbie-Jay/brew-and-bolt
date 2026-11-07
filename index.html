@@ -1,0 +1,474 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Brew &amp; Bolt — Café &amp; Bakery</title>
+  <meta name="description" content="Brew & Bolt is a neighbourhood café and bakery serving freshly brewed coffee, warm pastries and breakfast. A little pause. A fresh start." />
+  <meta name="theme-color" content="#34231F" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%2334231F'/%3E%3Cpath d='M35 12 20 36h11l-3 16 16-25H33z' fill='%23F3B943'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Fraunces:ital,opsz,wght@0,9..144,600;1,9..144,500;1,9..144,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Main">
+
+      <!--
+        TEMPORARY WORDMARK
+        When the final logo is ready, replace the <span class="wordmark">…</span> below with:
+        <img src="assets/logo.svg" alt="Brew & Bolt" />
+        (Do the same in the footer.) Logo height is controlled by --logo-height in styles.css.
+      -->
+      <a href="#top" class="logo" aria-label="Brew &amp; Bolt, back to top">
+        <span class="wordmark" aria-hidden="true">Brew <span class="amp">&amp;</span> Bolt</span>
+      </a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+        <span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="nav-menu">
+        <li><a href="#story">Our Story</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#space">The Space</a></li>
+        <li><a href="#visit">Visit</a></li>
+        <li><a href="#reserve" class="btn btn-small">Reserve a Table</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" aria-labelledby="hero-title">
+      <svg class="blob blob-hero" viewBox="0 0 600 600" aria-hidden="true"><path d="M421 89c62 41 109 113 104 186-5 74-62 149-131 198-70 49-152 72-221 46C104 493 49 418 37 340 25 262 56 181 113 128 170 75 253 50 314 56c40 4 76 14 107 33z"/></svg>
+
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">
+            <svg class="icon-bolt" viewBox="0 0 24 24" aria-hidden="true"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></svg>
+            Now open · Café &amp; Bakery
+          </p>
+          <h1 id="hero-title">A little pause.<br /><em>A fresh start.</em></h1>
+          <p class="lede">Freshly brewed coffee, pastries warm from the oven and easy breakfasts, served in a cosy corner of the neighbourhood. Come in, slow down, and leave with a little spring in your step.</p>
+          <div class="hero-actions">
+            <a href="#reserve" class="btn">Reserve a Table</a>
+            <a href="#menu" class="btn btn-secondary">See the Menu</a>
+          </div>
+          <ul class="hero-facts">
+            <li><strong>6:30<small>am</small></strong><span>Ovens on, every day</span></li>
+            <li><strong>12</strong><span>Pastries baked in‑house</span></li>
+            <li><strong>Free</strong><span>Wi‑Fi &amp; plug points</span></li>
+          </ul>
+        </div>
+
+        <div class="hero-media">
+          <figure class="photo photo-a">
+            <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=900&q=80" alt="Friends clinking two cups of latte with leaf latte art" width="900" height="1100" />
+          </figure>
+          <figure class="photo photo-b">
+            <img src="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?auto=format&fit=crop&w=700&q=80" alt="A table spread with breakfast plates, waffles, fruit and coffee" width="700" height="600" />
+          </figure>
+          <div class="badge" aria-hidden="true">
+            <svg class="badge-ring" viewBox="0 0 120 120">
+              <defs><path id="ring" d="M60,60 m-45,0 a45,45 0 1,1 90,0 a45,45 0 1,1 -90,0" /></defs>
+              <text><textPath href="#ring">FRESHLY BREWED · BAKED EVERY MORNING · </textPath></text>
+            </svg>
+            <svg class="badge-bolt" viewBox="0 0 24 24"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></svg>
+          </div>
+          <svg class="sprig" viewBox="0 0 80 140" aria-hidden="true">
+            <path d="M40 138C40 100 42 60 52 6"/>
+            <path d="M41 108c-14-4-24-14-26-28 14 2 24 12 26 28z"/>
+            <path d="M42 84c14-4 24-14 26-28-14 2-24 12-26 28z"/>
+            <path d="M45 58c-12-4-20-13-21-25 12 2 20 11 21 25z"/>
+            <path d="M48 36c11-4 18-12 19-23-11 2-18 10-19 23z"/>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MARQUEE ============ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Butter croissants</span><i></i><span>Flat whites</span><i></i><span>Cardamom knots</span><i></i><span>Cold brew</span><i></i><span>Sourdough toast</span><i></i><span>Fresh orange juice</span><i></i>
+        <span>Butter croissants</span><i></i><span>Flat whites</span><i></i><span>Cardamom knots</span><i></i><span>Cold brew</span><i></i><span>Sourdough toast</span><i></i><span>Fresh orange juice</span><i></i>
+      </div>
+    </div>
+
+    <!-- ============ STORY ============ -->
+    <section class="story section" id="story" aria-labelledby="story-title">
+      <div class="container story-grid">
+        <div class="story-media reveal">
+          <figure class="photo photo-tall">
+            <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=80" alt="A cappuccino with latte art on a table surrounded by green plants" loading="lazy" width="900" height="1125" />
+          </figure>
+          <svg class="blob blob-story" viewBox="0 0 600 600" aria-hidden="true"><path d="M452 140c48 60 62 150 30 222s-110 126-196 132c-86 6-180-36-214-108C38 314 64 214 124 152 184 90 278 66 346 76c42 6 80 30 106 64z"/></svg>
+        </div>
+
+        <div class="story-copy reveal">
+          <p class="label">Our story</p>
+          <h2 id="story-title">Cosy mornings with a little <em>spark.</em></h2>
+          <p>We opened Brew &amp; Bolt because everyone deserves a good start to the day. A proper cup of coffee. Something warm from the oven. A comfy seat by the window and nobody rushing you out the door.</p>
+
+          <div class="name-cards">
+            <div class="name-card">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h12v6a5 5 0 0 1-5 5h-2a5 5 0 0 1-5-5V8z"/><path d="M17 10h1.5a2.5 2.5 0 0 1 0 5H17"/><path d="M9 3c0 1.5 1 1.5 1 3M13 3c0 1.5 1 1.5 1 3"/></svg>
+              <h3>Brew</h3>
+              <p>Warmth, comfort and coffee made with real care.</p>
+            </div>
+            <div class="name-card">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></svg>
+              <h3>Bolt</h3>
+              <p>That gentle boost that gets your day moving.</p>
+            </div>
+          </div>
+
+          <ul class="pillars">
+            <li>
+              <span class="pillar-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 14c0-4 3-8 8-8s8 4 8 8H4z"/><path d="M3 14h18v2a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3v-2z"/></svg></span>
+              <div><h3>Baked every morning</h3><p>Everything's made from scratch, right here, before the sun's up.</p></div>
+            </li>
+            <li>
+              <span class="pillar-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21c-4-3-7-6-7-10a7 7 0 0 1 14 0c0 4-3 7-7 10z"/><path d="M12 21V9"/><path d="M12 13l3-3M12 16l-3-3"/></svg></span>
+              <div><h3>Good, honest ingredients</h3><p>Seasonal fruit, real butter and beans from small roasters we love.</p></div>
+            </li>
+            <li>
+              <span class="pillar-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 18v-6a3 3 0 0 1 3-3h10a3 3 0 0 1 3 3v6"/><path d="M2 18h20M6 18v3M18 18v3M7 9V6a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v3"/></svg></span>
+              <div><h3>Stay as long as you like</h3><p>Fast Wi‑Fi, plugs at every table and plenty of refills.</p></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FAVOURITES ============ -->
+    <section class="favourites section" aria-labelledby="fav-title">
+      <div class="container">
+        <div class="section-head split reveal">
+          <div>
+            <p class="label">Morning favourites</p>
+            <h2 id="fav-title">The ones everyone <em>comes back for.</em></h2>
+          </div>
+          <a href="#menu" class="btn btn-secondary">Full menu</a>
+        </div>
+
+        <div class="card-grid">
+          <article class="card reveal">
+            <figure class="card-img">
+              <img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=800&q=80" alt="Milk being poured into a latte to make latte art" loading="lazy" width="800" height="600" />
+              <span class="card-tag">Signature</span>
+            </figure>
+            <div class="card-body">
+              <div class="card-top"><h3>Bolt Latte</h3><span class="price">$5.50</span></div>
+              <p>Espresso, brown‑butter syrup, a pinch of sea salt and creamy oat milk.</p>
+            </div>
+          </article>
+          <article class="card reveal">
+            <figure class="card-img">
+              <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=800&q=80" alt="Golden butter croissants dusted with flour" loading="lazy" width="800" height="600" />
+              <span class="card-tag">Baked daily</span>
+            </figure>
+            <div class="card-body">
+              <div class="card-top"><h3>Butter Croissant</h3><span class="price">$3.75</span></div>
+              <p>Three days in the making, flaky on the outside and soft in the middle.</p>
+            </div>
+          </article>
+          <article class="card reveal">
+            <figure class="card-img">
+              <img src="https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=800&q=80" alt="A fried egg on toasted sourdough with smashed avocado" loading="lazy" width="800" height="600" />
+              <span class="card-tag">Signature</span>
+            </figure>
+            <div class="card-body">
+              <div class="card-top"><h3>The Morning Bolt</h3><span class="price">$14.00</span></div>
+              <p>Sourdough, smashed avocado, a runny egg, chilli crisp and fresh herbs.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MENU ============ -->
+    <section class="menu section" id="menu" aria-labelledby="menu-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="label">The menu</p>
+          <h2 id="menu-title">Simple food, <em>made with love.</em></h2>
+          <p>A short menu that changes with the seasons. Ask us what's just come out of the oven.</p>
+        </div>
+
+        <div class="tabs reveal" role="tablist" aria-label="Menu categories">
+          <button role="tab" aria-selected="true" aria-controls="tab-coffee" id="t-coffee" class="tab">Coffee &amp; Drinks</button>
+          <button role="tab" aria-selected="false" aria-controls="tab-pastry" id="t-pastry" class="tab" tabindex="-1">Pastries</button>
+          <button role="tab" aria-selected="false" aria-controls="tab-breakfast" id="t-breakfast" class="tab" tabindex="-1">Breakfast</button>
+        </div>
+
+        <div class="tab-panel" id="tab-coffee" role="tabpanel" aria-labelledby="t-coffee" tabindex="0">
+          <div class="menu-grid">
+            <article class="menu-item"><div class="mi-top"><h3>Espresso</h3><span class="dots"></span><span class="price">$3.00</span></div><p>Our seasonal house blend: chocolatey, fruity and smooth.</p></article>
+            <article class="menu-item"><div class="mi-top"><h3>Flat White</h3><span class="dots"></span><span class="price">$4.50</span></div><p>Double ristretto with silky steamed milk. Our most‑loved cup.</p></article>
+            <article class="menu-item"><div class="mi-top"><h3>Bolt Latte <span class="tag">Signature</span></h3><span class="dots"></span><span class="price">$5.50</span></div><p>Espresso, brown‑butter syrup, sea salt and oat milk.</p></article>
+            <article class="menu-item"><div class="mi-top"><h3>Pour Over</h3><span class="dots"></span><span class="price">$5.00</span></div><p>A rotating single origin, brewed slowly by hand.</p></article>
+            <article class="menu-item"><div class="mi-top"><h3>Cold Brew</h3><span class="dots"></span><span class="price">$4.75</span></div><p>Steeped for 18 hours. Smooth, bright and very refreshing.</p></article>
+            <article class="menu-item"><div class="mi-top"><h3>Cardamom Chai</h3><span class="dots"></span><span class="price">$4.75</span></div><p>Spiced in‑house and steamed with your milk of choice.</p></article>
+            <article class="menu-item"><div class="mi-top"><h3>Matcha Latte</h3><span class="dots"></span><span class="price">$5.25</span></div><p>Whisked to order, hot or iced. Add a little honey if you like.</p></article>
+            <article class="menu-item"><div class="mi-top"><h3>Fresh Orange Juice</h3><span class="dots"></span><span class="price">$4.00</span></div><p>Squeezed every morning. Sunshine in a glass.</p></article>
+          </div>
+          <p class="menu-note">Oat, almond and soy milk at no extra cost. Decaf? Just ask.</p>
+        </div>
+
+        <div class="tab-panel" id="tab-pastry" role="tabpanel" aria-labelledby="t-pastry" tabindex="0" hidden>
+          <div class="menu-grid">
+            <article class="menu-item"><div class="mi-top"><h3>Butter Croissant</h3><span class="dots"></span><span class="price">$3.75</span></div><p>Flaky, buttery and three days in the making.</p></article>
+            <article class="menu-item"><div class="mi-top"><h3>Pain au Chocolat</h3><span class="dots"></span><span class="price">$4.25</span></div><p>Two bars of dark chocolate tucked into croissant dough.</p></article>
+            <article class="menu-item"><div class="mi-top"><h3>Cardamom Knot <span class="tag">Signature</span></h3><span class="dots"></span><span class="price">$4.50</span></div><p>Sticky, fragrant and gone by 11 — come early!</p></article>
+            <article class="menu-item"><div class="mi-top"><h3>Almond Croissant</h3><span class="dots"></span><span class="price">$4.75</span></div><p>Twice‑baked with almond cream and toasted almonds.</p></article>
+            <article class="menu-item"><div class="mi-top"><h3>Seasonal Fruit Danish</h3><span class="dots"></span><span class="price">$4.50</span></div><p>Vanilla custard topped with this week's best fruit.</p></article>
+            <article class="menu-item"><div class="mi-top"><h3>Brown‑Butter Cookie</h3><span class="dots"></span><span class="price">$3.25</span></div><p>Crisp edges, gooey middle and a sprinkle of sea salt.</p></article>
+            <article class="menu-item"><div class="mi-top"><h3>Banana Bread</h3><span class="dots"></span><span class="price">$3.50</span></div><p>Toasted and served warm with honey butter.</p></article>
+            <article class="menu-item"><div class="mi-top"><h3>Sourdough Loaf</h3><span class="dots"></span><span class="price">$8.00</span></div><p>Our country loaf to take home. Limited each day.</p></article>
+          </div>
+          <p class="menu-note">Vegan and gluten‑friendly treats are baked daily. Just ask what's in the case.</p>
+        </div>
+
+        <div class="tab-panel" id="tab-breakfast" role="tabpanel" aria-labelledby="t-breakfast" tabindex="0" hidden>
+          <div class="menu-grid">
+            <article class="menu-item"><div class="mi-top"><h3>The Morning Bolt <span class="tag">Signature</span></h3><span class="dots"></span><span class="price">$14.00</span></div><p>Sourdough, smashed avocado, a runny egg, chilli crisp and herbs.</p></article>
+            <article class="menu-item"><div class="mi-top"><h3>Full Café Breakfast</h3><span class="dots"></span><span class="price">$15.00</span></div><p>Scrambled eggs, crispy potatoes, roast tomato, greens and toast.</p></article>
+            <article class="menu-item"><div class="mi-top"><h3>Shakshuka</h3><span class="dots"></span><span class="price">$13.00</span></div><p>Eggs baked in a spiced tomato sauce with feta and warm bread.</p></article>
+            <article class="menu-item"><div class="mi-top"><h3>Brioche French Toast</h3><span class="dots"></span><span class="price">$12.50</span></div><p>Caramelised banana, berries, maple syrup and a dollop of cream.</p></article>
+            <article class="menu-item"><div class="mi-top"><h3>Croissant Sandwich</h3><span class="dots"></span><span class="price">$10.50</span></div><p>Egg, cheddar and your choice of bacon or roasted mushrooms.</p></article>
+            <article class="menu-item"><div class="mi-top"><h3>Yogurt &amp; Granola Bowl</h3><span class="dots"></span><span class="price">$9.00</span></div><p>House granola, seasonal fruit, honey and toasted seeds.</p></article>
+          </div>
+          <p class="menu-note">Breakfast is served every day until 2 pm. Please let us know about any allergies.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EARLY BIRD ============ -->
+    <section class="promo" aria-labelledby="promo-title">
+      <svg class="blob blob-promo" viewBox="0 0 600 600" aria-hidden="true"><path d="M421 89c62 41 109 113 104 186-5 74-62 149-131 198-70 49-152 72-221 46C104 493 49 418 37 340 25 262 56 181 113 128 170 75 253 50 314 56c40 4 76 14 107 33z"/></svg>
+      <div class="container promo-grid reveal">
+        <div>
+          <p class="label light">Early bird deal</p>
+          <h2 id="promo-title">Any coffee + any pastry for <em>$7</em>, weekdays before 10.</h2>
+          <p>The best way to start a Monday (or any day, really).</p>
+        </div>
+        <a href="#visit" class="btn">Find Us</a>
+      </div>
+    </section>
+
+    <!-- ============ SPACE ============ -->
+    <section class="space section" id="space" aria-labelledby="space-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="label">The space</p>
+          <h2 id="space-title">Sunlight, plants and <em>a seat for you.</em></h2>
+          <p>Warm wood, soft morning light and greenery in every corner. Bring a book, your laptop or a friend.</p>
+        </div>
+        <div class="gallery reveal">
+          <figure class="photo g1"><img src="https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?auto=format&fit=crop&w=1100&q=80" alt="A bright café interior filled with hanging plants and wooden tables" loading="lazy" /><figcaption>The main room</figcaption></figure>
+          <figure class="photo g2"><img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=700&q=80" alt="Café seating with plants and a long coffee bar" loading="lazy" /><figcaption>Coffee bar</figcaption></figure>
+          <figure class="photo g3"><img src="https://images.unsplash.com/photo-1517433670267-08bbd4be890f?auto=format&fit=crop&w=700&q=80" alt="A bakery counter full of fresh breads and pastries" loading="lazy" /><figcaption>Pastry counter</figcaption></figure>
+          <figure class="photo g4"><img src="https://images.unsplash.com/photo-1559925393-8be0ec4767c8?auto=format&fit=crop&w=700&q=80" alt="Outdoor café terrace with tables, chairs and flower pots" loading="lazy" /><figcaption>The terrace</figcaption></figure>
+          <figure class="photo g5"><img src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=700&q=80" alt="Long wooden tables in a spacious, light-filled café" loading="lazy" /><figcaption>Big tables</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TESTIMONIALS (hidden until the café has real customer reviews) ============
+         To bring back: swap in genuine reviews (with permission), then delete the comment-opening line just below and the closing line that says END TESTIMONIALS. -->
+    <!--
+    <section class="quotes section" aria-labelledby="quotes-title">
+      <div class="container">
+        <div class="section-head center reveal">
+          <p class="label">Kind words</p>
+          <h2 id="quotes-title">What our regulars say</h2>
+        </div>
+        <div class="quote-grid">
+          <blockquote class="quote reveal">
+            <p>“The cardamom knot alone is worth the trip. It's become my favourite spot to write in the mornings.”</p>
+            <footer><span class="avatar" aria-hidden="true">M</span><div><strong>Maya R.</strong><span>Freelance writer</span></div></footer>
+          </blockquote>
+          <blockquote class="quote featured reveal">
+            <p>“I can study here all afternoon and never feel rushed. And the flat white is perfect, every time.”</p>
+            <footer><span class="avatar" aria-hidden="true">J</span><div><strong>Jordan K.</strong><span>University student</span></div></footer>
+          </blockquote>
+          <blockquote class="quote reveal">
+            <p>“Beautiful space, amazing croissants and staff who remember your order. Such a lovely place.”</p>
+            <footer><span class="avatar" aria-hidden="true">A</span><div><strong>Amara O.</strong><span>Product designer</span></div></footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+    END TESTIMONIALS -->
+
+    <!-- ============ VISIT + RESERVE ============ -->
+    <section class="visit section" id="visit" aria-labelledby="visit-title">
+      <div class="container visit-grid">
+        <div class="visit-info reveal">
+          <p class="label">Visit us</p>
+          <h2 id="visit-title">Come say hello. <em>The coffee's on.</em></h2>
+
+          <div class="info-block">
+            <h3>Opening hours</h3>
+            <dl class="hours">
+              <div><dt>Monday – Friday</dt><dd>6:30 am – 6:00 pm</dd></div>
+              <div><dt>Saturday</dt><dd>7:30 am – 6:00 pm</dd></div>
+              <div><dt>Sunday</dt><dd>8:00 am – 4:00 pm</dd></div>
+            </dl>
+            <p class="open-status" id="open-status" aria-live="polite"></p>
+          </div>
+
+          <div class="info-block">
+            <h3>Find us</h3>
+            <address>
+              24 Foundry Lane, Arts District<br />
+              Your City, 10001
+            </address>
+            <p class="contact">
+              <a href="tel:+15550123456">(555) 012‑3456</a><br />
+              <a href="mailto:hello@brewandbolt.com">hello@brewandbolt.com</a>
+            </p>
+          </div>
+
+          <div class="socials">
+            <a href="#" aria-label="Brew &amp; Bolt on Instagram">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" class="fill"/></svg>
+            </a>
+            <a href="#" aria-label="Brew &amp; Bolt on TikTok">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3v11.5a3.5 3.5 0 1 1-3.5-3.5"/><path d="M14 3c.5 2.5 2.5 4.5 5 4.5"/></svg>
+            </a>
+            <a href="#" aria-label="Get directions on Google Maps">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="reserve-card reveal" id="reserve">
+          <h2>Reserve a table</h2>
+          <p class="sub">Walk‑ins are always welcome! Booking just saves you a spot, which is handy for groups, study dates and weekend brunch.</p>
+
+          <form id="reserve-form" novalidate>
+            <div class="field-row">
+              <div class="field">
+                <label for="r-name">Name</label>
+                <input id="r-name" name="name" type="text" autocomplete="name" required placeholder="Your full name" aria-describedby="r-name-err" />
+                <small class="error" id="r-name-err"></small>
+              </div>
+              <div class="field">
+                <label for="r-email">Email</label>
+                <input id="r-email" name="email" type="email" autocomplete="email" required placeholder="you@example.com" aria-describedby="r-email-err" />
+                <small class="error" id="r-email-err"></small>
+              </div>
+            </div>
+            <div class="field-row three">
+              <div class="field">
+                <label for="r-date">Date</label>
+                <input id="r-date" name="date" type="date" required aria-describedby="r-date-err" />
+                <small class="error" id="r-date-err"></small>
+              </div>
+              <div class="field">
+                <label for="r-time">Time</label>
+                <select id="r-time" name="time" required aria-describedby="r-time-err">
+                  <option value="">Pick a date first</option>
+                </select>
+                <small class="error" id="r-time-err"></small>
+              </div>
+              <div class="field">
+                <label for="r-guests">Guests</label>
+                <select id="r-guests" name="guests" required>
+                  <option value="1">1</option>
+                  <option value="2" selected>2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7+">7+</option>
+                </select>
+              </div>
+            </div>
+            <fieldset class="field seating">
+              <legend>Where would you like to sit?</legend>
+              <div class="chips">
+                <label><input type="radio" name="seating" value="Any" checked /><span>Anywhere</span></label>
+                <label><input type="radio" name="seating" value="Window" /><span>By the window</span></label>
+                <label><input type="radio" name="seating" value="Quiet" /><span>Quiet corner</span></label>
+                <label><input type="radio" name="seating" value="Group" /><span>Big table</span></label>
+              </div>
+            </fieldset>
+            <div class="field">
+              <label for="r-notes">Anything else? <span class="optional">(optional)</span></label>
+              <textarea id="r-notes" name="notes" rows="2" placeholder="Birthday, allergies, need a plug nearby…"></textarea>
+            </div>
+            <button type="submit" class="btn btn-block">Request Reservation</button>
+          </form>
+
+          <div class="success" id="reserve-success" hidden tabindex="-1">
+            <div class="success-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>
+            </div>
+            <h3>You're all set!</h3>
+            <p id="success-text"></p>
+            <button type="button" class="btn btn-secondary" id="reserve-again">Make another booking</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <!-- TEMPORARY WORDMARK: replace with <img src="assets/logo-light.svg" alt="Brew & Bolt" /> -->
+        <a href="#top" class="logo light" aria-label="Brew &amp; Bolt, back to top">
+          <span class="wordmark" aria-hidden="true">Brew <span class="amp">&amp;</span> Bolt</span>
+        </a>
+        <p class="footer-tagline">A little pause. A fresh start.</p>
+        <p>Your neighbourhood café and bakery for fresh coffee, warm pastries and slow mornings.</p>
+      </div>
+      <div>
+        <h2 class="footer-h">Explore</h2>
+        <ul>
+          <li><a href="#story">Our Story</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#space">The Space</a></li>
+          <li><a href="#reserve">Reservations</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="footer-h">Say hello</h2>
+        <ul>
+          <li>24 Foundry Lane</li>
+          <li><a href="tel:+15550123456">(555) 012‑3456</a></li>
+          <li><a href="mailto:hello@brewandbolt.com">hello@brewandbolt.com</a></li>
+        </ul>
+      </div>
+      <form class="newsletter" id="newsletter" novalidate>
+        <h2 class="footer-h">The Morning Post</h2>
+        <p>New bakes, events and the odd free croissant. Once a month, never spammy.</p>
+        <div class="nl-row">
+          <label for="nl-email" class="sr-only">Email address</label>
+          <input id="nl-email" type="email" placeholder="Your email" required autocomplete="email" />
+          <button type="submit" class="btn btn-small">Join</button>
+        </div>
+        <p class="nl-msg" aria-live="polite"></p>
+      </form>
+    </div>
+    <div class="container footer-bottom">
+      <p>© <span id="year">2026</span> Brew &amp; Bolt. All rights reserved.</p>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+# Local tooling
+.claude/
+
+# Upload copies for Netlify Drop (not needed once deploying from GitHub)
+brew-and-bolt-site/
+*.zip
+
+# OS clutter
+Thumbs.db
+.DS_Store
