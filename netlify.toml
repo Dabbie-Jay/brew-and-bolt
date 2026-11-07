@@ -1,0 +1,5 @@
+# Netlify settings for the Brew & Bolt site.
+# Plain static files: no build step, publish the repository root.
+[build]
+  publish = "."
+  command = ""
